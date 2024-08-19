@@ -85,7 +85,7 @@ public class Main {
 
             // Check if the recipe is vegetarian
             System.out.println("Is vegetarian: " + selectedRecipe.isVegetarian());
-            System.out.println("Is suitable for diet: " + selectedRecipe.isSuitableForDiet());
+            System.out.println("Is suitable for healthly diet: " + selectedRecipe.isSuitableForDiet());
             System.out.println("The cuisine is from: " + selectedRecipe.checkCuisine());
             System.out.println("--------------------------------------------");
 
