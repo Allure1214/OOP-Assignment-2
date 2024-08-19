@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Recipe implements Comparable<Recipe>, Cloneable {
+public abstract class Recipe implements RecipeGenerator, RecipeAnalyzer, Comparable<Recipe>, Cloneable {
     private String name;
     private String description;
     private ArrayList<Ingredient> ingredients;

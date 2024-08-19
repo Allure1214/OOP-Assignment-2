@@ -1,5 +1,5 @@
 public interface RecipeAnalyzer {
     boolean isVegetarian();
-    String checkCuisine();
+    Enums.Cuisine checkCuisine();
     boolean isSuitableForDiet();
 }
